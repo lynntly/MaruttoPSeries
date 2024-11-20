@@ -1,0 +1,1 @@
+import"./core.BiNaRts7.js";const e=document.querySelector(".video-container .play-button"),o=document.querySelector(".video-container img"),t=document.querySelector(".video-container iframe");e.addEventListener("click",()=>{e.style.display="none",o.style.display="none",t.src=t.getAttribute("data-src")});
